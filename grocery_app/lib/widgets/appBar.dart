@@ -25,7 +25,7 @@ Widget appBarTitle = Column(
             ),
             Text('92, High Street, London',
             style: TextStyle(
-                color: Colors.blueGrey,
+                color: Colors.black87,
                 fontSize: 18,
                 fontWeight: FontWeight.w700,
               ),),
