@@ -34,19 +34,29 @@ class HomePage extends StatelessWidget {
             ),
 
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Padding(
-                  padding: const EdgeInsets.only(left: 10),
-                  child: Firstcontainer(
+                //1
+                Firstcontainer(
                     title: 'Vegitable',
                     description: 'Vegitable are parts of plants that are consumed human',
                     backColor1: Colors.pinkAccent,
                     backColor2: Colors.greenAccent,
                     textColor: Colors.white
                   ),
-                ),
+
+                  SizedBox(
+                    width: 30,
+                  ),
 
                 //2
+                Firstcontainer(
+                    title: 'Fish & Meat',
+                    description: 'Vegitable are parts of plants that are consumed human',
+                    backColor1: Colors.pinkAccent,
+                    backColor2: Colors.greenAccent,
+                    textColor: Colors.white
+                  ),
               ],
             ),
 
