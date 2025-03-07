@@ -19,31 +19,35 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(10.0),
+              padding: const EdgeInsets.fromLTRB(10, 15, 10, 10),
               child: Container(
-                height: 50,
+                height: 45,
                 width: double.infinity,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(100),
-                  color: Colors.grey.withOpacity(0.5),
+                  color: Colors.grey.withOpacity(0.2),
                   border: Border.all(
-                    color: Colors.blueGrey,
+                    color: Colors.blueGrey.withOpacity(0.2),
                     width: 1,
-                  )
+                  ),
                 ),
 
                 child: Row(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(left: 15),
-                      child: Icon(Icons.search, size: 35, color: Colors.blueGrey,),
+                      padding: const EdgeInsets.symmetric(horizontal: 15),
+                      child: Icon(
+                        Icons.search,
+                        size: 30,
+                        color: Colors.black87,
+                      ),
                     ),
 
-                    TextField()
+                    Expanded(child: TextField()),
                   ],
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
