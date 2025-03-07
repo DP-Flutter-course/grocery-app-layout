@@ -25,11 +25,79 @@ class HomePage extends StatelessWidget {
             SizedBox(height: 10),
 
             Padding(
-              padding: const EdgeInsets.only(left: 20),
+              padding: const EdgeInsets.fromLTRB(10, 0, 0, 10),
               child: Text(
                 'Explore Catogaries',
-                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 17),
               ),
+            ),
+
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left: 10),
+                  child: Container(
+                    height: 150,
+                    width: 140,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: Colors.amber,
+                    ),
+                  
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                          child: Text(
+                            'data',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w800,
+                              fontSize: 15,
+                            ),
+                          ),
+                        ),
+                  
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
+                          child: Text(
+                            'datadatadatadatadatadtadddddddddddddd',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ),
+                  
+                        Center(
+                          child: Container(
+                            height: 50,
+                            width: 110,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue
+                            ),
+                          ),
+                        )
+                  
+                        
+                      ],
+                    ),
+                  ),
+                ),
+
+                //2
+              ],
+            ),
+
+            Row(
+              children: [
+                //3
+
+                //4
+              ],
             ),
           ],
         ),
