@@ -20,7 +20,7 @@ class Firstcontainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 180,
+      height: 200,
       width: 160,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
@@ -58,7 +58,7 @@ class Firstcontainer extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(10.0),
               child: Container(
-                height: 60,
+                height:80,
                 width: 130,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
