@@ -43,7 +43,21 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
 
-                    Expanded(child: TextField()),
+                    //text input
+                    Expanded(
+                      child: TextField(
+                        textAlignVertical: TextAlignVertical.center,
+                        decoration: InputDecoration(
+                          hintText: "Search here...",
+                          border: InputBorder.none,
+                          hintStyle: TextStyle(
+                            color: Colors.blueGrey,
+                            fontSize: 15,
+                          ),
+                          contentPadding: EdgeInsets.symmetric(vertical: 12),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
