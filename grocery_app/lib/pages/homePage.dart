@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:grocery_app/pages/searchBar.dart';
 import 'package:grocery_app/widgets/appBar.dart';
+import 'package:grocery_app/widgets/firstContainer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -36,55 +37,12 @@ class HomePage extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 10),
-                  child: Container(
-                    height: 150,
-                    width: 140,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.amber,
-                    ),
-                  
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
-                          child: Text(
-                            'data',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w800,
-                              fontSize: 15,
-                            ),
-                          ),
-                        ),
-                  
-                        Padding(
-                          padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
-                          child: Text(
-                            'datadatadatadatadatadtadddddddddddddd',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w600,
-                              fontSize: 12,
-                            ),
-                          ),
-                        ),
-                  
-                        Center(
-                          child: Container(
-                            height: 50,
-                            width: 110,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                              color: Colors.blue
-                            ),
-                          ),
-                        )
-                  
-                        
-                      ],
-                    ),
+                  child: Firstcontainer(
+                    title: 'Vegitable',
+                    description: 'Vegitable are parts of plants that are consumed human',
+                    backColor1: Colors.pinkAccent,
+                    backColor2: Colors.greenAccent,
+                    textColor: Colors.white
                   ),
                 ),
 
