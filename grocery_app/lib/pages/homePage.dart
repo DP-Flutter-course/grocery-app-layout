@@ -18,8 +18,19 @@ class HomePage extends StatelessWidget {
 
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Search_bar(),
+
+            SizedBox(height: 10),
+
+            Padding(
+              padding: const EdgeInsets.only(left: 20),
+              child: Text(
+                'Explore Catogaries',
+                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+              ),
+            ),
           ],
         ),
       ),
