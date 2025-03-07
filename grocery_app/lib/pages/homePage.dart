@@ -38,33 +38,58 @@ class HomePage extends StatelessWidget {
               children: [
                 //1
                 Firstcontainer(
-                    title: 'Vegitable',
-                    description: 'Vegitable are parts of plants that are consumed human',
-                    backColor1: Colors.pinkAccent,
-                    backColor2: Colors.greenAccent,
-                    textColor: Colors.white
-                  ),
+                  title: 'Vegitable',
+                  description:
+                      'Vegitable are parts of plants that are consumed human',
+                  backColor1: Colors.pinkAccent,
+                  backColor2: Colors.greenAccent,
+                  textColor: Colors.white,
+                  iconName: Icons.no_meals
+                ),
 
-                  SizedBox(
-                    width: 30,
-                  ),
+                SizedBox(width: 30),
 
                 //2
                 Firstcontainer(
-                    title: 'Fish & Meat',
-                    description: 'Vegitable are parts of plants that are consumed human',
-                    backColor1: Colors.pinkAccent,
-                    backColor2: Colors.greenAccent,
-                    textColor: Colors.white
-                  ),
+                  title: 'Fish & Meat',
+                  description:
+                      'Vegitable are parts of plants that are consumed human',
+                  backColor1: Colors.pinkAccent,
+                  backColor2: Colors.greenAccent,
+                  textColor: Colors.white,
+                  iconName: Icons.set_meal
+                ),
               ],
             ),
 
+            SizedBox(height: 20),
+
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 //3
+                Firstcontainer(
+                  title: 'Vegitable',
+                  description:
+                      'Vegitable are parts of plants that are consumed human',
+                  backColor1: Colors.yellow,
+                  backColor2: Colors.orangeAccent,
+                  textColor: Colors.black,
+                  iconName: Icons.no_meals
+                ),
+
+                 SizedBox(width: 30),
 
                 //4
+                Firstcontainer(
+                  title: 'Fish & Meat',
+                  description:
+                      'Vegitable are parts of plants that are consumed human',
+                  backColor1: Colors.yellow,
+                  backColor2: Colors.orangeAccent,
+                  textColor: Colors.black,
+                  iconName: Icons.set_meal
+                ),
               ],
             ),
           ],

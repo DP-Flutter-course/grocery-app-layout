@@ -6,6 +6,7 @@ class Firstcontainer extends StatelessWidget {
   final Color backColor1;
   final Color backColor2;
   final Color textColor;
+  final IconData iconName;
   const Firstcontainer({
     super.key,
     required this.title,
@@ -13,6 +14,7 @@ class Firstcontainer extends StatelessWidget {
     required this.backColor1,
     required this.backColor2,
     required this.textColor,
+    required this.iconName,
   });
 
   @override
@@ -62,6 +64,8 @@ class Firstcontainer extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                   color: backColor2,
                 ),
+
+                child: Icon(iconName, size: 40),
               ),
             ),
           ),
